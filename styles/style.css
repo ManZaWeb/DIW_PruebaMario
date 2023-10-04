@@ -1,7 +1,3 @@
-body{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
 ul{
     display: flex;
     list-style: none;
@@ -11,7 +7,8 @@ ul{
 }
 
 .title{
-    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(48, 44, 44);
     color: azure;
     text-align: center;
     margin: 1% 1% 1% 1%;
@@ -21,8 +18,17 @@ section{
     text-align: center;
     border: 2px solid black;
     padding: 50px;
-    margin: 5% 10%;
-    
+    margin: 5% 10%;    
+}
+.scolor1{
+    background-color: rgba(174, 194, 94, 0.408);
+}
+.scolor2{
+    background-color: rgba(158, 178, 184, 0.536);
+}
+.sfont{
+    font-size: 4em;
+    background-color: blueviolet;
 }
 img{
     height: 500px;
